@@ -1,0 +1,146 @@
+#ears
+push
+rotate
+z -30
+move
+95 555 10
+sphere
+0 0 0 20 70 10
+pop
+
+push
+rotate
+z 30
+move
+340 307 10
+sphere
+0 0 0 20 70 10
+pop
+
+push
+move
+0 50 0
+#FACE
+box
+200 350 10 100 200 10
+box
+180 360 10 140 60 10
+
+#HORNS
+box
+200 420 10 20 70 10
+sphere
+210 430 10 10 10 10
+box
+280 420 10 20 70 10
+sphere
+290 430 10 10 10 10
+
+#nose
+box
+210 180 10 80 60 10
+sphere
+230 150 10 10 15 10
+sphere
+270 150 10 10 15 10
+
+#eyes
+sphere
+220 280 10 20 20 10
+sphere
+280 280 10 20 20 10
+
+#neck
+box
+230 120 10 40 120 10
+pop
+
+#body
+box
+230 50 -10 40 30 -500
+
+#legs
+box
+230 20 10 10 20 10
+
+box
+230 20 490 10 20 10
+
+box
+260 20 10 10 20 10
+
+box
+260 20 490 10 20 10
+
+#TREE
+push
+color
+165 42 42
+box
+100 100 10 10 100 10
+color
+0 255 0
+sphere
+90 90 10 20 20 20
+sphere
+105 110 10 20 20 20
+sphere
+120 90 10 20 20 20
+
+move
+300 0 0
+color
+165 42 42
+box
+100 100 10 10 100 10
+color
+0 255 0
+sphere
+90 90 10 20 20 20
+sphere
+105 110 10 20 20 20
+sphere
+120 90 10 20 20 20
+pop
+
+#GROUND
+line
+0 0 0 500 0 0
+line
+0 1 0 500 1 0
+
+#CLOUDS
+push
+move
+-50 50 0
+color
+255 255 255
+sphere
+90 190 10 20 20 20
+sphere
+105 210 10 20 20 20
+sphere
+120 190 10 20 20 20
+sphere
+135 210 10 20 20 20
+sphere
+150 190 10 20 20 20
+
+move
+350 0 0
+sphere
+90 190 10 20 20 20
+sphere
+105 210 10 20 20 20
+sphere
+120 190 10 20 20 20
+sphere
+135 210 10 20 20 20
+sphere
+150 190 10 20 20 20
+
+
+display
+
+save
+giraffo.png
