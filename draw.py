@@ -57,7 +57,10 @@ def scanline_convert(polygons, i, screen, zbuffer ):
             dx1 = dx1_1
             x1 = mid[0]
             check = False
-            
+    
+    if(top[1] == mid[1]): draw_line(int(top[0]), int(top[1]), int(top[2]), int(mid[0]), int(mid[1]), int(mid[2]), screen, zbuffer, color)
+    
+    if(bot[1] == mid[1]): draw_line(int(bot[0]), int(bot[1]), int(bot[2]), int(mid[0]), int(mid[1]), int(mid[2]), screen, zbuffer, color)
 
 def add_polygon( polygons, x0, y0, z0, x1, y1, z1, x2, y2, z2 ):
     add_point(polygons, x0, y0, z0)
