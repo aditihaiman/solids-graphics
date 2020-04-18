@@ -3,7 +3,7 @@ from matrix import *
 from gmath import *
 
 def scanline_convert(polygons, i, screen, zbuffer ):
-    color = [(i*13)%255, (i+100)%255, (i*50)%255]
+    color = [(i+13)%255, (i+23)%255, (i*23)%255]
     top = []
     mid = []
     bot = []
